@@ -4,7 +4,7 @@ echo "started the script"
 # Variables
 baseUrl="$1"
 keyvaultName="$2"
-identity = "$3"
+identity= "$3"
 requirementFile="requirements.txt"
 requirementFileUrl=${baseUrl}"infra/scripts/index_scripts/requirements.txt"
 
