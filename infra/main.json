@@ -382,7 +382,7 @@
     "containerRegistryName": "[format('{0}{1}', variables('abbrs').containers.containerRegistry, variables('solutionPrefix'))]",
     "containerRegistryNameCleaned": "[replace(variables('containerRegistryName'), '-', '')]",
     "acrName": "[if(equals(variables('useLocalBuildLower'), 'true'), variables('containerRegistryNameCleaned'), 'kmcontainerreg')]",
-    "baseUrl": "https://raw.githubusercontent.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator/main/"
+    "baseUrl": "https://raw.githubusercontent.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator/psl-bug-20983-checkVersion/"
   },
   "resources": [
     {

@@ -2,7 +2,7 @@ param solutionLocation string
 param keyVaultName string
 param identity string
 
-var baseUrl = 'https://raw.githubusercontent.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator/main/'
+var baseUrl = 'https://raw.githubusercontent.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator/psl-bug-20983-checkVersion/'
 
 resource process_data_scripts 'Microsoft.Resources/deploymentScripts@2020-10-01' = {
   kind:'AzureCLI'

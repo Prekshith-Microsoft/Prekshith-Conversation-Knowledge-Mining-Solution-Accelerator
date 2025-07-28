@@ -93,7 +93,7 @@ var containerRegistryName = '${abbrs.containers.containerRegistry}${solutionPref
 var containerRegistryNameCleaned = replace(containerRegistryName, '-', '')
 var acrName = useLocalBuildLower == 'true' ? containerRegistryNameCleaned : 'kmcontainerreg'
 
-var baseUrl = 'https://raw.githubusercontent.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator/main/'
+var baseUrl = 'https://raw.githubusercontent.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator/psl-bug-20983-checkVersion/'
 
 // ========== Resource Group Tag ========== //
 resource resourceGroupTags 'Microsoft.Resources/tags@2021-04-01' = {
